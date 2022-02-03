@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+body.mantis_landing {
+	background-color:#FFF;}	
+	
+
+
+body.mantis_landing table caption {
+	margin-top:60px;}
+body.mantis_landing table.mantis_home caption {
+	margin-bottom:160px;}
+body.mantis_landing table.mantis_register caption {
+	margin-top:20px;
+	margin-bottom:20px;}
+body.mantis_landing table.mantis_login caption {
+	margin-bottom:80px;}		
+	
+	
+	
+body.mantis_landing table td {
+	padding:20px 30px;}
+body.mantis_landing table.mantis_home td,
+body.mantis_landing table.mantis_register td,
+body.mantis_landing table.mantis_login td {
+	padding-top:10px;
+	padding-bottom:10px;}	
+	
+		
+		
+body.mantis_landing caption img.logo {
+	width:120px;}
+body.mantis_landing caption .title {
+	font-size:26px;
+	font-weight:bold;}
+body.mantis_landing caption .subtitle {
+	margin-top:5px;
+	font-size:20px;
+	font-weight:normal;}	
+	
+	
+	
+body.mantis_landing table td a.button {
+	padding:12px 10px;
+	border-radius:50px;
+	text-align:center;	
+	font-size:18px;
+	border:solid;
+	display:block;}		
+body.mantis_landing table td a#pri {
+	color:#FFF;}
+body.mantis_landing table td a#sec {
+	background-color:#FFF;}	
+body.mantis_landing table td a#sec:hover {
+	background-color:#EEE;}	
+		
+
+
+body.mantis_landing form label {
+	font-size:14px;	
+	display:block;}	
+body.mantis_landing form input,
+body.mantis_landing form select {
+	background-color:transparent;
+	color:#555;
+	padding:5px 0 10px;
+	width:100%;
+	font-size:18px;
+	border:0;
+	border-bottom:solid #DDD;
+  -webkit-transition:border-color .5s; /* Safari */
+  transition:border-color .5s;	
+	display:block;}	
+body.mantis_landing form input[type="submit"] {
+	padding:15px 0;
+	color:#FFF;
+	font-family:inherit;
+	font-size:18px;
+	border:0;}	
+	
+	
+	
+body.mantis_landing .password_cover {
+	position:relative;}
+body.mantis_landing .password_cover a {
+	position:absolute; 
+	top:30px;	
+	right:5px;
+	color:#555;
+	font-size:14px;
+	font-weight:bold;}
+body.mantis_landing .button_cover {
+	text-align:center;
+	margin:20px 10px;
+	margin-bottom:10px;}
+body.mantis_landing .link_cover {
+	text-align:center;
+	margin:10px;}	
+body.mantis_landing .link_cover a {
+	font-weight:bold;}
+		
+
+
+body.mantis_landing .mantis_footer {
+	margin-top:20px;
+	padding:20px 10px;
+	text-align:center;}		
+
+
+
+

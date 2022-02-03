@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* PURE HTML FILE */
+body.mantis_splash {
+	text-align:center;
+	background-color:#4EAE26;}
+body.mantis_splash main, 
+body.mantis_splash footer {
+	width:100%;
+	position:absolute;}	
+body.mantis_splash main {		
+	top:180px;}
+body.mantis_splash img {
+	width:120px;}
+body.mantis_splash footer {
+	bottom:25px;}	
+body.mantis_splash ul {
+	padding:0;
+	margin:0;				
+	list-style-type:none;}
+body.mantis_splash ul li {		
+	display:inline-block;}
+body.mantis_splash ul li a {
+	margin:0 2px;
+	background-color:#333;
+	width:12px;
+	height:12px;
+	border-radius:100%;
+	-webkit-transition:background-color .2s; /* Safari */
+	transition:background-color .2s;
+	display:block;}
+body.mantis_splash ul li a.active {
+	background-color:#FFF;}

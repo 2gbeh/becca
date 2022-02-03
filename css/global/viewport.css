@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document 
+opera........................768x1280
+bb..............................345x571
+tekno spark2.........360x720
+infinix hot 8............360x800
+infinix hot 6............360x720
+samsung 9+...........412x846
+tekno spark3..........360x750
+*/
+.mantis_frame_wrap, 
+.mantis_frame_head, 
+.mantis_aside_cover {
+	width:360px;}
+	
+@media only screen and (max-width: 600px) {
+.mantis_frame_wrap, 
+.mantis_frame_head, 
+.mantis_aside_cover  {
+	width:100%;}	
+}
+
+

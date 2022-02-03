@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+table.mantis_compose {
+	background-color:#FFF;}
+table.mantis_compose tr th {
+	border-bottom:solid thin #DDD;}		
+table.mantis_compose th {
+	padding:15px 20px;
+	text-align:left;}
+table.mantis_compose td {
+	padding:15px 20px;	
+	font-size:inherit;}		
+		
+		
+
+table.mantis_compose label {
+	margin-bottom:5px;
+	font-size:14px;	
+	display:block;}	
+table.mantis_compose input, 
+table.mantis_compose select, 
+table.mantis_compose textarea {
+	background-color:transparent;
+	color:#555;	
+	padding:5px 0 10px;
+	width:100%;
+	font-size:18px;
+	border:0;
+	border-bottom:solid #DDD;
+  -webkit-transition:all .2s; /* Safari */
+  transition:all .2s;	
+	display:block;}		
+table.mantis_compose textarea {
+	color:#555;
+	padding:20px 5px 0 5px;
+	font-family:inherit;
+	font-size:16px;}	
+table.mantis_compose input[readonly] {
+	background-color:#FFC;}	
+table.mantis_compose input[type="submit"] {
+	margin-top:20px;	
+	padding:12px 0;
+	color:#FFF;
+	font-family:inherit;
+	font-size:18px;
+	border:0;}	
+	
+	
+
+table.mantis_compose .password_cover {
+	position:relative;}
+table.mantis_compose .password_cover a {
+	position:absolute; 
+	top:35px;	
+	right:5px;
+	color:#555;
+	font-size:14px;
+	font-weight:bold;}
+table.mantis_compose .link_cover {
+	text-align:center;
+	margin:20px 0;}
+table.mantis_compose .link_cover a.button {
+	padding:12px 0;		
+	background-color:#F4F4F4;
+	color:#555;	
+	border:solid #CCC;
+	display:block;}	
+table.mantis_compose .link_cover a.button:hover {
+	background-color:#FFF;}		
+	
+
+
+
+table.mantis_compose ul li.radio_unit, 
+table.mantis_compose ul li.checkbox_unit {
+	margin:5px;
+	padding:10px 15px 8px 10px;
+	background-color:#F4F4F4;
+	border-radius:20px;}
+table.mantis_compose ul li.radio_unit label, 
+table.mantis_compose ul li.checkbox_unit label {
+	margin-bottom:0;
+	color:#555;	
+	text-shadow:1px 1px 0 #FFF;	
+	font-size:14px;}		
+table.mantis_compose ul li.radio_unit input[type="radio"],
+table.mantis_compose ul li.checkbox_unit input[type="checkbox"] {
+	width:auto;
+	vertical-align:middle;
+	display:inline-block;}	
+	
+	
+	
+	
+	
+	

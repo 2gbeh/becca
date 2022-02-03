@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+body.mantis_template {
+	background-color:#F4F4F4;}
+	
+	
+	
+.mantis_frame_wrap {
+	margin:0 auto;}
+.mantis_frame_head {
+	top:0;	
+	position:fixed;
+	z-index:99;}
+.mantis_frame_main {
+	margin-top:100px;}
+body.mantis_template_nonav .mantis_frame_main {
+	margin-top:50px;}
+	
+	
+	
+table.mantis_header {
+	color:#FFF;}
+table.mantis_header tr {
+	vertical-align:middle;}
+body.mantis_template_nonav table.mantis_header tr {
+	box-shadow:0 5px 2px #CCC;}	
+table.mantis_header td {
+	padding:0 0 10px;}
+table.mantis_header a.equiv {
+	padding:25px 15px 0 20px;
+	font-size:32px;
+	line-height:0.1;
+	display:inline-block;}
+table.mantis_header .appname {
+	padding:12px 0 0 0;
+	font-size:24px;
+	line-height:0;}
+
+
+
+table.mantis_nav {
+	color:#FFF;}
+table.mantis_nav tr {
+	vertical-align:middle;
+	box-shadow:0 5px 2px #CCC;}	
+table.mantis_nav tr.colsize_2 td {
+	width:50%;}
+table.mantis_nav tr.colsize_3 td {
+	width:33%;}
+table.mantis_nav tr.colsize_4 td {
+	width:25%}
+table.mantis_nav td a {
+	padding:10px;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:18px;
+	font-weight:bold;
+	display:block;}	
+table.mantis_nav td a.active {
+	border-bottom:solid 5px #FFF;}	
+
+
+
+.mantis_section {
+	border-bottom:solid thin #DDD;}
+.mantis_section select {
+	color:inherit;	
+	background-color:#F4F4F4;
+	padding:10px;
+	font-family:inherit;
+	font-size:inherit;
+	text-shadow:1px 1px 0 #FFF;
+	width:100%;
+	border:0;
+	display:block;}	
+	
+	
+	
+.mantis_fab_cover {
+	position:relative;}
+.mantis_fab {
+	position:absolute;
+	right:20px;
+	bottom:0;}
+.mantis_fab {
+	color:#FFF;
+	width:56px;
+	height:56px;
+	text-align:center;	
+	font-size:38px;
+	font-weight:lighter;
+	line-height:1.5;
+	border-radius:100%;
+	box-shadow:0 2px 4px #999;
+	display:inline-block;}	
+	
+			
+			
+.mantis_footer {	
+	padding:15px 10px 20px;
+	text-align:center;
+	text-shadow:1px 1px 0 #FFF;}
+
+
+

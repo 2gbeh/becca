@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+table.mantis_inbox {
+	background-color:#FFF;}
+table.mantis_inbox tr td {
+	border-bottom:solid thin #DDD;}	
+table.mantis_inbox caption {
+	margin-top:5px;
+	background-color:#F4F4F4;
+	padding:15px;
+	text-align:left;
+	text-shadow:1px 1px 0 #FFF;}
+table.mantis_inbox tr {
+	border-bottom:solid thin #DDD;}	
+table.mantis_inbox th {
+	padding:15px 20px;
+	text-align:left;
+	text-shadow:none;}
+table.mantis_inbox td {
+	padding:15px 0;	
+	font-size:inherit;}		
+		
+
+table.mantis_inbox .thumb {
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:cover;}
+table.mantis_inbox .thumb {
+	margin:0 15px 0 20px;
+	color:#EAEAEA;
+	width:45px;
+	height:45px;
+	text-align:center;
+	font-size:26px;
+	line-height:1.9;	
+	border-radius:100%;	
+	box-shadow:0px 2px 2px #999;
+	display:inline-block;}
+	
+	
+	
+	
+table.mantis_inbox .sender {
+	font-size:18px;
+	font-weight:bold;}	
+table.mantis_inbox .sender time {
+	margin-right:15px;
+	color:#999;
+	font-size:15px;
+	font-weight:normal;
+	float:right;}	
+table.mantis_inbox .subject {
+	margin-top:3px;
+	color:#999;
+	font-size:15px;}	
+table.mantis_inbox .message {
+	padding:5px 20px 0 0;
+	color:#999;
+	line-height:1.4;}
+table.mantis_inbox .action {
+	padding:10px 20px 0 0;}	
+table.mantis_inbox .action a.button {
+	padding:5px 10px;
+	border:solid thin;}	
+table.mantis_inbox .action a#pri {
+	color:#090;
+	border-color:#090;}
+table.mantis_inbox .action a#sec {
+	color:#E11;
+	border-color:#E11;}
+	
+	
+table.mantis_inbox ul.list_group li {
+	margin:10px 10px 0 0;
+	padding:5px 15px;
+	background-color:#F4F4F4;
+	color:#555;
+	font-size:14px;
+	text-shadow:1px 1px 0 #FFF;	
+/*	border-radius:20px;*/}	
+	
+		

@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document 
+define('PRIMARY', '#4EAE26');
+define('SECONDARY', '#E6A754');
+define('ACCENT', '#F73D23');
+*/
+/* COLOR PRIMARY */	
+.color_primary, 
+body.mantis_landing caption .subtitle, 
+body.mantis_landing table td a#sec, 
+table.mantis_compose label,
+table.mantis_aside tr:hover td, 
+table.mantis_posts .username {
+	color:#4EAE26;}	
+	
+/* BACKGROUND PRIMARY */
+.bgcolor_primary, 
+body.mantis_landing table td a#pri, 
+body.mantis_landing input[type="submit"], 
+table.mantis_header, 
+table.mantis_nav, 
+table.mantis_aside caption {
+	background-color:#4EAE26;}
+
+/* BORDER PRIMARY */	
+.border_primary, 
+body.mantis_landing table td a#pri, 
+body.mantis_landing table td a#sec {
+	border-color:#4EAE26;}	
+	
+	
+	
+	
+/* COLOR SECONDARY */	
+.color_secondary {
+	color:#E6A754;}	
+		
+/* BACKGROUND SECONDARY */
+.bgcolor_secondary, 
+table.mantis_compose input[type="submit"] {
+	background-color:#E6A754;}
+
+/* BORDER SECONDARY */	
+.border_secondary, 
+body.mantis_landing input:focus, 
+table.mantis_compose input:focus,
+table.mantis_compose select:focus,
+table.mantis_compose textarea:focus {
+	border-color:#E6A754;}	
+	
+	
+	
+	
+/* COLOR ACCENT */	
+.color_accent {
+	color:#F73D23;}	
+	
+/* BACKGROUND ACCENT */
+.bgcolor_accent,
+.mantis_fab {
+	background-color:#F73D23;}
+
+/* BORDER ACCENT */	
+.border_accent {
+	border-color:#F73D23;}
+
+
+

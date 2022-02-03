@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+.mantis_aside_cover {
+	top:0;
+	bottom:0;	
+	position:fixed;
+	background-color:rgba(0,0,0,0.6);
+	-webkit-transition:display .2s; /* Safari */	
+	transition:display .2s;	
+	display:none;}
+.mantis_aside_wrap {
+	background-color:#FFF;
+	top:0;
+	bottom:0;
+	position:fixed;
+	width:0;
+	overflow-x:hidden;
+	overflow-y:auto;
+	-webkit-transition:width .5s; /* Safari */	
+	transition:width .5s;}	
+
+
+
+table.mantis_aside {
+	background-color:#FFF;}
+table.mantis_aside caption {
+	padding:0 20px 20px;
+	color:#FFF;
+	text-align:left;}
+table.mantis_aside caption a.times {
+	float:right;
+	font-size:28px;
+	-webkit-transition:all .2s; /* Safari */
+  transition:all .2s;	}
+table.mantis_aside caption a.times:hover {
+	color:#333;}	
+table.mantis_aside caption .thumb {
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:cover;}	
+table.mantis_aside caption .thumb {
+	margin:40px 0 20px;
+	background-color:#FFF;
+	width:100px;
+	height:100px;
+	text-align:center;
+	font-size:28px;
+	line-height:1.8;
+	border:solid;
+	border-radius:100%;	
+	box-shadow:0 2px 4px #555;
+	display:inline-block;}	
+table.mantis_aside caption .name {
+	font-weight:bold;}
+table.mantis_aside caption .email {
+	margin-top:5px;
+	font-size:15px;}
+table.mantis_aside caption a.caret {
+	line-height:1.2;
+	font-weight:lighter;
+	float:right;
+	display:none;}
+	
+
+
+table.mantis_aside tr.divide {
+	border-top:solid thin #DDD;}
+table.mantis_aside th {
+	padding:15px 20px;
+	color:#555;
+	text-align:left;
+	text-transform:uppercase;
+	font-size:14px;
+	font-weight:bold;}	
+table.mantis_aside th {
+	background-color:transparent;
+	cursor:default;}	
+
+
+
+table.mantis_aside tr td {
+	padding:0;
+	color:#555;		
+  -webkit-transition:background-color .2s; /* Safari */
+  transition:background-color .2s;
+	cursor:pointer;}	
+table.mantis_aside tr:hover td {
+	background-color:#F6F6F6;}			
+table.mantis_aside tr td:first-child {
+	padding-left:20px;
+	width:5px;}
+table.mantis_aside tr td:last-child {
+	padding-right:20px;
+	width:5px;}
+	
+
+
+table.mantis_aside td a {
+	padding:20px;
+	display:block;}
+table.mantis_aside td i,
+table.mantis_aside td j {
+	background-color:#6C6C6C;
+	color:#FFF;
+	width:25px;
+	height:25px;
+	text-align:center;
+	font-style:normal;
+	line-height:1.5;
+	display:inline-block;}	
+table.mantis_aside td j {
+	background-color:transparent;
+	border:solid 2px #555;}			
+table.mantis_aside td var {
+	background-color:#CCC;
+	color:#FFF;
+	width:25px;
+	height:25px;
+	text-align:center;
+	font-size:13px;
+	font-weight:bold;
+	line-height:2.2;
+	border-radius:100%;
+	cursor:pointer;	
+	display:inline-block;}	
+table.mantis_aside td var.info {
+	font-family:Georgia, "Times New Roman", Times, serif;}	
+	
+	

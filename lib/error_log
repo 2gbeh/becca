@@ -1,0 +1,6 @@
+[19-Jan-2019 20:26:49 UTC] PHP Fatal error:  Cannot redeclare JRAD_CRUD_FIELDS() (previously declared in /home/hwplabsc/public_html/Apps/Dive/library/JRAD/PHP/CRUD.php:2) in /home/hwplabsc/public_html/Apps/Dive/library/JRAD/SQL/CRUD.php on line 2
+[29-Jan-2019 16:17:58 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/hwplabsc/public_html/Apps/Dive/php/server/Groups.php on line 3
+[15-Apr-2019 23:19:13 UTC] PHP Fatal error:  Call to private method DataModel::SanitizeStrict() from context '' in /home/hwplabsc/public_html/Apps/msc/php/server/Server-Admin_News_Form.php on line 28
+[11-May-2019 11:04:33 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[03-Oct-2019 10:31:27 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[18-Feb-2020 10:11:15 Africa/Lagos] PHP Parse error:  syntax error, unexpected ';' in /home/tdstateb/public_html/us/php/bean-crud.php on line 9

@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+table.mantis_profile {
+	background-color:#FFF;}
+table.mantis_profile caption {
+	position:relative;
+	padding:205px 0 20px;
+	color:#FFF;	
+	text-align:left;}
+table.mantis_profile caption .name {
+	padding:0 15px 0 20px;
+/*	background-color:red;*/
+	position:absolute;	
+	bottom:20px;
+	color:#FFF;
+	font-size:38px;}
+table.mantis_profile caption .mantis_fab {
+	top:-8px;
+	font-weight:lighter;}	
+
+
+
+table.mantis_profile th {
+	padding:20px;
+	text-align:left;}	
+table.mantis_profile tr td:first-child {
+	padding-left:20px;
+	padding-right:20px;}
+table.mantis_profile tr td:nth-child(2) {
+	padding:20px 20px 5px 0;
+	border-bottom:solid thin #DDD;}	
+table.mantis_profile tr td:last-child {
+	padding-right:20px;}	
+	
+
+
+table.mantis_profile td .icon {
+	background-color:transparent;
+	color:#FFF;
+	width:25px;
+	height:25px;
+	text-align:center;
+	font-style:normal;
+	line-height:1.5;
+	border:solid 2px #555;	
+	display:inline-block;}
+table.mantis_profile td .label {
+	padding:5px 0 15px;
+	color:#999;
+	font-size:14px;}
+table.mantis_profile td .input {
+	font-size:18px;}
+
+
