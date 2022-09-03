@@ -1,2 +1,2 @@
 # becca
-Personal Virtual Dietician
+Personal Virtual Dietician App
